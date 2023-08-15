@@ -1,5 +1,4 @@
---THis Query for  update score of Bob to 10
+-- Updates the score of Bob to 10 in the table second_table.
 UPDATE `second_table`
-SET
-`score` = 10
-WHERE `second_table` . `name` = 'Bob';
+SET `score` = 10
+WHERE `name` = "Bob";
